@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav .titulo{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main-nav .titulo img{
+    width: 90px;
+    height: 50px;
+    margin: left;
+}
+.main-nav{
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0;
+    background-color: yellow;
+    font-size: 30px;
+    text-align:right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a {
+    color: rgba(72, 71, 71, 0.813);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+.main-nav__item a:hover {
+    color: rgb(255, 251, 251);
+}
+.main-nav__item a:active{
+    color: red;
+}
+.main-nav__item a::after{
+    content: " | ";
+    color: #1F365D;
+}
+body{
+    text-align: center;
+}
+.contenedor{
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    border: 2px solid #ccc;
+    background: linear-gradient(to top, #703a7c, #ca547d)
+}
+
+#inicio{
+    display: block;
+}
+h1{
+    background-color:yellow;
+    color: black;
+    padding: 10px 0;
+}
+#inicio img{
+    width: 250px;
+    margin: 30px;
+    
+}
+#inicio p{
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px;
+}   
+.button{
+    padding: 15px;
+    background: #cb27ac;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-weight:600;
+    margin: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+#juego{
+    display: none;
+    padding: 10px;
+
+}
+#juego .tiempo{
+    border: 4px solid #ebbe53;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebbe53;
+}
+#juego .palabra_estilo{
+    padding: 30px;
+    font-size: 40px;
+    background-color: #a24679;
+    color: white;
+    border: 1px solid #989898;
+}
+.entrada{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid#989898;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    margin:50px 0 ;
+    display: block;
+    color: white;
+}
+.listado h3{
+    color: white;
+}
+.listado span{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: #ebbe53;
+    color: white;
+
+}
+#final{
+    display: none;
+}
+.texto_final{
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+}
+.estilo_cantidaad_final{
+    background: #fdd56a;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    font-size: 50px;
+    margin: auto;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
